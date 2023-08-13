@@ -21,7 +21,7 @@ export const BlogData = [
     id: 3,
     slug: "javascript-best-practices",
     title: "JavaScript Best Practices",
-    image: "https://plus.unsplash.com/premium_photo-1673295617151-c5ddbcbf38db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80",
+    image: "https://example.com/images/javascript.jpg",
     post: "Discover essential JavaScript best practices for writing clean, efficient, and maintainable code.",
     author_name: "Alex Johnson",
     avatar_image: "https://example.com/images/alex-johnson-avatar.jpg",
