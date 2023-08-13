@@ -19,4 +19,14 @@ export const PortfolioData = [
     alt: "Photography Portfolio",
     slug: "photography-portfolio", // Added slug here
   },
+  {
+    id: 3,
+    title: "Video Portfolio",
+    image:
+      "https://images.unsplash.com/photo-1598249390350-ff235039369e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+    description:
+      "A captivating photography portfolio showcasing a variety of styles and subjects.",
+    alt: "Photography Portfolio",
+    slug: "video-portfolio", // Added slug here
+  },
 ];
