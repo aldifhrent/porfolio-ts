@@ -10,7 +10,7 @@ const BlogList = (props: Props) => {
       <h1>BlogList</h1>
       <div>
         {BlogData.map((item) => (
-          <BlogCard title={item.title} image={item.image} post={item.post} author_name={item.author_name} avatar_image={""} slug={item.slug} />
+          <BlogCard key={item.id} title={item.title} image={item.image} post={item.post} author_name={item.author_name} avatar_image={""} slug={item.slug} />
         ))}
       </div>
     </>
