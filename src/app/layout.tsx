@@ -1,10 +1,6 @@
-'use client'
-
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import { ThemeProvider } from "@/components/ThemeProvider";
-import Head from "next/head";
 
 export const metadata: Metadata = {
   title: "Portfolio",
