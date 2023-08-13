@@ -1,14 +1,13 @@
 import Header from '@/components/Header'
 import React from 'react'
-type Props = {}
 
-const BlogPage = (props: Props) => {
+const PortfolioPageId = () => {
   return (
     <div>
         <Header/>
-        <h1>Blog Page List</h1>
+        <h1>Portfolio Page Id</h1>
     </div>
   )
 }
 
-export default BlogPage
+export default PortfolioPageId

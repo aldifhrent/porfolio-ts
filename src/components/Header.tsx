@@ -66,7 +66,7 @@ const Header = () => {
           <Link href="/" className={` hover:text-gray-500 ${isActive("/")}`}>
             Home
           </Link>
-          <Link href="/porfolio "id="portfolio" onClick={scrollToPortfolio} className={` hover:text-gray-500 ${isActive("/portfolio")}`}>
+          <Link href="/portfolio "id="portfolio" onClick={scrollToPortfolio} className={` hover:text-gray-500 ${isActive("/portfolio")}`}>
             Porfolio
           </Link>
           <Link

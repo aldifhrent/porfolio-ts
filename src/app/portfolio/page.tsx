@@ -1,13 +1,11 @@
 import Header from '@/components/Header'
 import React from 'react'
 
-
-
 const PortfolioPage = () => {
   return (
     <div>
         <Header/>
-        <h1>Porfolio Page Content</h1>
+        <h1>Portfolio Page List</h1>
     </div>
   )
 }
