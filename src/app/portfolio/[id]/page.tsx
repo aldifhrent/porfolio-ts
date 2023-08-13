@@ -1,12 +1,11 @@
 import Header from '@/components/Header'
 import React from 'react'
-import Blog from '@/components/blog/Blog'
-type Props = {}
 
-const page = (props: Props) => {
+const page = () => {
   return (
     <div>
         <Header/>
+        <h1>Portfolio ID</h1>
     </div>
   )
 }

@@ -7,10 +7,10 @@ type Props = {};
 const BlogList = (props: Props) => {
   return (
     <>
-      <div>BlogList</div>
+      <h1>BlogList</h1>
       <div>
         {BlogData.map((item) => (
-          <BlogCard title={item.title} image={item.image} post={item.post} author_name={item.author_name} avatar_image={""} />
+          <BlogCard title={item.title} image={item.image} post={item.post} author_name={item.author_name} avatar_image={""} slug={item.slug} />
         ))}
       </div>
     </>
