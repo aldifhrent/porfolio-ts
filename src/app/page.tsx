@@ -1,17 +1,12 @@
-import Image from "next/image";
-import Header from "@/components/Header";
+"use client";
+
 import Hero from "@/components/Hero";
-import PortfolioList from "@/components/portfolio/PortfolioList";
-import BlogList from "@/components/blog/BlogList";
-import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 export default function Home() {
   return (
     <div>
       <Header />
       <Hero />
-      <PortfolioList/>
-      {/* <BlogList/> */}
-      <Footer/>
     </div>
   );
 }

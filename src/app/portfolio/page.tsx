@@ -1,13 +1,16 @@
-import Header from '@/components/Header'
-import React from 'react'
+import Header from "@/components/Header";
+import PortfolioList from "@/components/portfolio/PortfolioList";
+import React from "react";
 
 const PortfolioPage = () => {
   return (
     <div>
-        <Header/>
-        <h1>Portfolio Page List</h1>
+      <Header />
+      <h1>
+        <PortfolioList />
+      </h1>
     </div>
-  )
-}
+  );
+};
 
-export default PortfolioPage
+export default PortfolioPage;

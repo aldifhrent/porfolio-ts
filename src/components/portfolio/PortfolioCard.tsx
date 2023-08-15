@@ -15,25 +15,29 @@ type portfolioProps = {
   image: string;
   alt: string;
   description: string;
-  slug: string;
 };
 
-const PortfolioCard = ({ title, image, description, alt, slug}: portfolioProps) => {
+const PortfolioCard = ({
+  title,
+  image,
+  description,
+  alt,
+}: portfolioProps) => {
   return (
-    <Card className="max-w-[400px]">
-      <CardHeader>
-        <CardTitle>{title}</CardTitle>
-      </CardHeader>
-      <CardContent>
-        <Image src={image} alt={alt} width={400} height={400} />
-        <CardDescription className="mt-2">{description}</CardDescription>
-      </CardContent>
-      <CardFooter>
-        <Link href={`portfolio/${slug}`}>
-          <Button className="w-full">Read More</Button>
-        </Link>
-      </CardFooter>
-    </Card>
+    <div>
+      <Card className="grid max-w-[400px] md:max-w-[400px]">
+        <CardHeader>
+          <CardTitle className="font-xl text-center md:font-md">{title}</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <Image src={image} alt={alt} width={400} height={400} className="w-full" />
+          <CardDescription className="mt-2">{description}</CardDescription>
+        </CardContent>
+        <CardFooter className="items-center justify-center">
+          <Button>Github</Button>
+        </CardFooter>
+      </Card>
+    </div>
   );
 };
 

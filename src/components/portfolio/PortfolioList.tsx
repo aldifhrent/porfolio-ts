@@ -8,7 +8,6 @@ type PortofolioProps = {
   image: string;
   alt: string;
   description: string;
-  slug: string;
 };
 
 const PortfolioList = () => {
@@ -18,7 +17,7 @@ const PortfolioList = () => {
       className="mt-36 max-w-7xl justify-center p-4 items-center mx-auto max-h-fit"
     >
       <h1 className="font-poppins text-center text-4xl font-bold">Portfolio List</h1>
-      <div className="grid grid-cols-3 justify-center items-center mt-12 gap-4">
+      <div className="grid grid-cols-3 justify-center items-center mt-12 gap-4 md:grid-rows-3 sm:grid-rows-3">
         {PortfolioData.map((item: PortofolioProps) => (
           <PortfolioCard
             key={item.id}
@@ -26,7 +25,6 @@ const PortfolioList = () => {
             image={item.image}
             alt={item.alt}
             description={item.description}
-            slug={item.slug}
           />
         ))}
       </div>
