@@ -10,16 +10,16 @@ const Hero = () => {
   return (
     <div className="mt-24 max-w-6xl mx-auto" data-aos="fade-left">
       {/*  */}
-      <div className="grid md:grid-cols-2 sm:grid-cols-1 justify-between items-center md:ml-4 sm:ml-4">
+      <div className="grid grid-cols-2 md:grid-cols-2 sm:grid-cols-1 items-center md:ml-4 sm:ml-4">
         <div>
-          <h1 className="font-poppins font-bold lg:text-4xl md:text-2xl sm:text-xl">
+          <h1 className="font-poppins mx-4 font-bold lg:text-4xl md:text-2xl sm:text-xl">
             Aldi Ahmad Fahrizi Ilmawan
           </h1>
-          <h1 className="w-fit font-poppins text-center p-2 mt-2 mb-2 bg-black text-white dark:text-black dark:bg-white ">
+          <h1 className="mx-4 w-fit font-poppins text-center p-2 mt-2 mb-2 bg-black text-white dark:text-black dark:bg-white ">
             Student
           </h1>
 
-          <p className="font-poppins whitespace-normal max-w-lg mt-2 text-md md:text-lg">
+          <p className="mx-4 font-poppins whitespace-normal max-w-lg mt-2 text-md md:text-lg">
             Seorang mahasiswa yang tertarik di bidang teknologi dan
             cryptocurrency
           </p>
